@@ -35,8 +35,10 @@
 ## 1、直接下载 [sms-bombing](./builds/sms-bombing) 可执行文件
 
 ```shell
-curl 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaoxuan6/SMSBombing/v2/builds/sms-bombing' -o sms-bombing --progress-bar
+curl 'https://raw.githubusercontent.com/bushizhangwudia/SMSBombing/v2/builds/sms-bombing' -o sms-bombing --progress-bar
 chmod +x sms-bombing
+mv sms-bombing /usr/local/bin/sms-bombing
+chmod 777 /usr/local/bin/sms-bombing
 ```
 
 ## 2、通过 Composer 安装
