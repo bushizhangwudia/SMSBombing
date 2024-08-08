@@ -81,7 +81,7 @@ class SMSBombingCommand extends Command
                             return $filename;
                         }
 
-                        return 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/xiaoxuan6/SMSBombing/v2/api.json';
+                        return 'https://raw.githubusercontent.com/xiaoxuan6/SMSBombing/v2/api.json';
 
                     })
                 ),
